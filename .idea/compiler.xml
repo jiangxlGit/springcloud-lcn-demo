@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="eureka-server" />
+        <module name="springcloud-mybatis-demo1" />
+        <module name="springcloud-mybatis-demo2" />
+        <module name="transaction-springcloud" />
+        <module name="tx-client" />
+        <module name="tx-manager" />
+        <module name="tx-plugins-db" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server" target="1.8" />
+      <module name="springcloud-jdbc-demo1" target="1.8" />
+      <module name="springcloud-jdbc-demo2" target="1.8" />
+      <module name="springcloud-jdbc-demo3" target="1.8" />
+      <module name="springcloud-jdbc-demo4" target="1.8" />
+      <module name="springcloud-jdbc-demo5" target="1.8" />
+      <module name="springcloud-jpa-demo1" target="1.8" />
+      <module name="springcloud-jpa-demo2" target="1.8" />
+      <module name="springcloud-jpa-demo3" target="1.8" />
+      <module name="springcloud-lcn-demo" target="1.7" />
+      <module name="springcloud-mybatis-demo1" target="1.8" />
+      <module name="springcloud-mybatis-demo2" target="1.8" />
+      <module name="springcloud-shardingjdbc-mybatis-demo1" target="1.8" />
+      <module name="springcloud-shardingjdbc-mybatis-demo2" target="1.8" />
+      <module name="transaction-dubbo" target="1.7" />
+      <module name="transaction-motan" target="1.7" />
+      <module name="transaction-springcloud" target="1.8" />
+      <module name="tx-client" target="1.8" />
+      <module name="tx-lcn" target="1.8" />
+      <module name="tx-manager" target="1.7" />
+      <module name="tx-plugins-db" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
